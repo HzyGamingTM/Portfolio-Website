@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/cava_laudron2.PNG?v=1745756857980"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio Website</title>
+    
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.175.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.175.0/examples/jsm/"
+      }
+    }
+    </script>
+    <script type="module" src="../index.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="content-div">
+      <div class="introduction-div" id="introduction-div">
+        
+        <div id="center-div-intro">
+          <h1 id="name-text">
+            Zheng Yong
+          </h1>
+          <p id="name-bottom-text">
+            Aspiring Software Engineer
+          </p>
+          <button id="view-more-button" onclick="document.getElementById('nav-bar-div').scrollIntoView();">
+            &lt;/View More&gt;
+          </button>
+        </div>
+        
+      </div>
+      <div class="nav-bar-div" id="nav-bar-div">
+        <a class="nav-bar-current-item nav-bar-items" onclick="document.getElementById('introduction-div').scrollIntoView();">&lt;/Home&gt;</a>
+        <a class="nav-bar-items" href="#about-div">&lt;/About&gt;</a>
+        <a class="nav-bar-items" href="#skills-div">&lt;/Skills&gt;</a>
+        <a class="nav-bar-items" href="#projects-div">&lt;/Projects&gt;</a>
+        <a class="nav-bar-items" href="#contacts-div">&lt;/Contacts&gt;</a>
+      </div>
+      <div id="about-div">
+        <h1 class="header">&lt;/About Me&gt;</h1>
+        <img id="profile-img" src="https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/cava_laudron2.PNG?v=1745756857980">
+        <div id="bio-div">
+          <p id="bio-text">
+            A student of Anderson Serangoon Junior College
+            studying the H2 Computing subject with a deep
+            passion for Software Development.
+            <br>
+            <br>
+            I have 4+ Years of programming experience across multiple programming languages
+          </p>
+        </div>
+        
+        <div id="skills-div">
+          <h1 class="header">&lt;/Skills&gt;</h1>
+          <div id="skills-container-div">
+            <div class="skill-div">
+              <img class="skill-img" src="https://abrudz.github.io/logos/Java.svg"><br>
+              <h4 class="language-skill-header">Java</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">4 years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://abrudz.github.io/logos/Python.svg"><br>
+              <h4 class="language-skill-header">Python</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">4 years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://abrudz.github.io/logos/CSharp.svg"><br>
+              <h4 class="language-skill-header">C#</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">3 years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Unity-Dark.svg"><br>
+              <h4 class="language-skill-header">Unity</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">3 Years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/html5.svg"><br>
+              <h4 class="language-skill-header">HTML</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">3 years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/css3.svg"><br>
+              <h4 class="language-skill-header">CSS</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">3 years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://abrudz.github.io/logos/JS.svg"><br>
+              <h4 class="language-skill-header">Javascript</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">3 years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/DiscordJS-Dark.svg"><br>
+              <h4 class="language-skill-header">Discord JS</h4>
+              <p class="language-skill-text">Proficient</p>
+              <p class="language-skill-text-years">3 years of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Blender-Dark.svg"><br>
+              <h4 class="language-skill-header">Blender</h4>
+              <p class="language-skill-text">Intermediate</p>
+              <p class="language-skill-text-years">2 year of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/636829723898798601.png?v=1747061728679"><br>
+              <h4 class="language-skill-header">Minecraft Modding</h4>
+              <p class="language-skill-text">2 Years</p>
+              <p class="language-skill-text-years">Intermediate</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/typescript.svg"><br>
+              <h4 class="language-skill-header">Typescript</h4>
+              <p class="language-skill-text">Intermediate</p>
+              <p class="language-skill-text-years">2 years of experience</p>
+            </div>            
+            <div class="skill-div">
+              <img class="skill-img" src="https://abrudz.github.io/logos/Swift.svg"><br>
+              <h4 class="language-skill-header">Swift</h4>
+              <p class="language-skill-text">Beginner</p>
+              <p class="language-skill-text-years">1 year of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Lua-Dark.svg"><br>
+              <h4 class="language-skill-header">Lua</h4>
+              <p class="language-skill-text">Beginner</p>
+              <p class="language-skill-text-years">1 Year of experience</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/refs/heads/main/frameworks/react.svg"><br>
+              <h4 class="language-skill-header">React</h4>
+              <p class="language-skill-text">Beginner</p>
+              <p class="language-skill-text-years">Just started</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"><br>
+              <h4 class="language-skill-header">Tailwind CSS</h4>
+              <p class="language-skill-text">Beginner</p>
+              <p class="language-skill-text-years">Just Started</p>
+            </div>
+            <div class="skill-div">
+              <img class="skill-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/CPP.svg"><br>
+              <h4 class="language-skill-header">C++</h4>
+              <p class="language-skill-text">Beginner</p>
+              <p class="language-skill-text-years">Just Started</p>
+            </div>
+          </div>
+        </div>
+        
+        <div id="projects-div">
+          <h1 class="header">&lt;/Projects&gt;</h1>
+          <div class="contribution-div">
+            <div class="project-text-div">
+              <h2 class="projects-text-header">Late Apps:</h2>
+              <p class="projects-text">
+                Contributed to a latecomings tracker web
+                application <a href="https://legitimate-skeletal-figure.anvil.app/ ">(Late Apps)</a> using the Python
+                on <a href="https://anvil.works/">Anvil</a> for Riverside Secondary School
+              </p>
+            </div>
+            <a href="https://legitimate-skeletal-figure.anvil.app/ " class="projects-img-a">
+              <img class="projects-img" src="https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/lateapps.png?v=1745069968049">
+            </a>
+          </div>
+          
+          <div class="contribution-div">
+            <div class="project-text-div">
+              <h2 class="projects-text-header">Backrooms Game:</h2>
+              <p class="projects-text">
+                Worked on a horror game with the <a href="https://unity.com/">Unity Game Engine</a> for 2 years as a personal project. <a href="https://github.com/HzyGamingTM/Unity-Backrooms-Game/tree/master">(Backrooms Game)</a>
+              </p>
+            </div>
+            <a href="https://github.com/HzyGamingTM/Unity-Backrooms-Game/tree/master" class="projects-img-a">
+              <img class="projects-img" src="https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/unity_backrooms.png?v=1745160968700">          
+            </a>
+          </div>
+          
+          <div class="contribution-div">
+            <div class="project-text-div">
+              <h2 class="projects-text-header">Music Discord Bot:</h2>
+              <p class="projects-text">
+                Worked on a music bot application for <a href="https://discord.com">Discord</a>.
+              </p>
+            </div>
+            <a href="https://github.com/HzyGamingTM/Music-Bot" class="projects-img-a">
+              <img style="border-radius:100%;" id="projects-img-music-bot" src="https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/Space.png?v=1745483977212">          
+            </a>
+          </div>
+          
+          <div class="contribution-div">
+            <div class="project-text-div">
+              <h2 class="projects-text-header">Osu Capital:</h2>
+              <p class="projects-text">
+                Currently working on a simulated stock exchange website, <a href="https://osucapital.com/dashboard">osu! captial</a>, that mimics stock price based on player performance on the <a href="https://osu.ppy.sh">Osu!</a> Rythmn Game.
+              </p>
+            </div>
+            <a href="https://osucapital.com/" class="projects-img-a">
+              <img class="projects-img" src="https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/public%2Fosu_captial.png?v=1745699079633">          
+            </a>
+          </div>
+        </div>
+        
+        <div class="contribution-div">
+            <div class="project-text-div">
+              <h2 class="projects-text-header">Minecraft Chat Prefix Plugin</h2>
+              <p class="projects-text">
+                Created a <a href="https://papermc.io/">Paper</a> Plugin to add prefixes to players' names in the <a href="https://www.minecraft.net/en-us">Minecraft</a> chat
+              </p>
+            </div>
+            <a href="https://github.com/HzyGamingTM/HzyPlugin-1.21.5/tree/master" class="projects-img-a">
+              <img class="projects-img-music-bot" src="https://papermc.io/assets/logo/256x.png">          
+            </a>
+          </div>
+        </div>
+        
+        <div id="contacts-div">
+          <h1 class="header">&lt;/Contacts&gt;</h1>
+          <div id="contacts-container">
+            <a href="https://github.com/HzyGamingTM" class="contact-article">
+              <img class="contact-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Github-Dark.svg">
+            </a>
+            <a href="https://www.instagram.com/hzygamingtm/" class="contact-article">
+              <img class="contact-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Instagram.svg">
+            </a>
+            <a href="mailto:zhengyonghoe@gmail.com" class="contact-article">
+              <img class="contact-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Gmail-Dark.svg">
+            </a>
+            <a href="https://discord.com/users/383939718796017664" class="contact-article" >
+              <img class="contact-img" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Discord.svg">
+            </a>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+  </body>
+</html>
