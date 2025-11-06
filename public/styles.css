@@ -170,7 +170,7 @@ a:hover {
   flex-direction: column;
 }
 
-#about-div {
+#profile-div {
   margin: auto;
   max-width: 1280px;
   background-color: var(--dark-bg-1);
@@ -347,6 +347,46 @@ a:hover {
   height: 100vw;
   z-index: -99;
   filter: brightness(60%) blur(2px);
+}
+
+#writeup-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.writeup-entry-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  padding: 100px 64px;
+}
+
+.writeup-text-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.writeup-text-header {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+.writeup-text {
+  text-align: justify;
+  color: var(--dark-fg);
+  display: block;
+  margin: 0px;
+  font-size: 1.2em;
+}
+
+.write-up-gctf-img {
+  border-radius: 4px;
+  width: 50%;
+  height: 50%;
 }
 
 #contacts-div {
