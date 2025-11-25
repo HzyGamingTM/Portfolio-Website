@@ -46,14 +46,38 @@ a:hover {
   color: var(--dark-acc-blue);
 }
 
+#name-div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+}
+
 #name-text {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
-  margin-right: auto;
+  
   
   font-size: 5em;
   color: var(--dark-fg);
+}
+
+#name-text-caret {
+  font-size: 4.9em;
+  color: var(--dark-fg);
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: var(--dark-fg);
+  }
 }
 
 #name-bottom-text {
