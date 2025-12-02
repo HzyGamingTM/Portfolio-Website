@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-family: segoe-symbol;
   src: url("https://cdn.glitch.global/6889b0fc-857c-4287-b9d1-8dea274a278e/segoe-ui-symbol.ttf?v=1740492345119");
@@ -9,6 +10,7 @@
   src: url("https://cdn.glitch.global/df2c2d47-8d71-41a7-940a-2b2fdd33cf08/public%2FFiraCode-VariableFont_wght.ttf?v=1745065048581");
 }
 
+/* Main */
 html {
   scroll-behavior: smooth;
   
@@ -45,6 +47,8 @@ a {
 a:hover {
   color: var(--dark-acc-blue);
 }
+
+/* Home */
 
 #name-div {
   display: flex;
@@ -144,6 +148,8 @@ a:hover {
   100% {width: 205px; height: 65px}
 }
 
+/* Nav Bar */
+
 .nav-bar-div {
   height: 50px;
   background-color: var(--dark-bg-2);
@@ -182,6 +188,8 @@ a:hover {
 .nav-bar-items:hover {
   margin-top: 10px;
 }
+
+/* Fonts */
 
 .introduction-div {
   height: 100vh;
@@ -244,20 +252,7 @@ a:hover {
   display: flex;
 }
 
-.contribution-div {
-  display: flex;
-  flex-direction: row;
-  padding-top: 100px;
-  align-items: center;
-  justify-content: center;
-  gap: 64px;
-}
-
-.projects-div {
-  display: flex;
-  flex-direction: column;
-  padding-top: 100px;
-}
+/* Skills */
 
 #skills-container-div {
   display: flex;
@@ -268,6 +263,30 @@ a:hover {
   padding-top: 100px;
 }
 
+.skills-category-container-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.skills-category-align-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  padding: 16px;
+}
+
+.skills-category-text {
+  color: var(--dark-acc-red);
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
 
 .skill-div {
   width: 100px;
@@ -308,6 +327,23 @@ a:hover {
   text-align: center;
   margin-top: 4px;
   margin-bottom: 4px;
+}
+
+/* Projects */
+
+.projects-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.contribution-div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
 }
 
 .projects-text {

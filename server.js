@@ -30,17 +30,9 @@ fastify.register(require("@fastify/view"), {
   /***********************/
 
 fastify.get("/", (request, reply) => {
-  return reply.view("/src/pages/index.hbs");
+  return reply.view("/src/pages/index.html");
 });
 
-fastify.post("/contacts", (request, reply) => {  
-  return reply.view("/src/pages/contacts.html");
-});
-
-
-fastify.get("/projects", (request, reply) => {
-  return reply.view("/src/pages/login.html");
-});
 
 // Run the server and report out to the logs
 fastify.listen(
